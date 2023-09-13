@@ -19,7 +19,7 @@ if (randomDice > randomDice2){
 else if (randomDice < randomDice2){
     document.querySelector("h1").innerHTML="Player 2 Win! 🏆";
 }
-else if (randomDice < randomDice2){
+else if (randomDice = randomDice2){
     document.querySelector("h1").innerHTML="🏆 Match Draw! 🏆";
 }
 else{
